@@ -13,6 +13,7 @@
 
 * Debian (deb) package for installation with RabbitMQ 3.2.4
 * Requires erlang >= R15
+* Enable with {auth_mechanisms, [rabbit_auth_backend_http, rabbit_auth_backend_internal]}
 
 ## Why another fork?
 
