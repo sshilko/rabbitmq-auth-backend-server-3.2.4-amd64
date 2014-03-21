@@ -16,7 +16,7 @@
 
 ## Why another fork?
 
-* Original deb from ppa was built against 3.1.3 and its outdated (rabbitmq-auth-backend-http_20131225-3_amd64.deb)
+* Original deb from ppa was built against RabbitMQ 3.1.3 (rabbitmq-auth-backend-http_20131225-3_amd64.deb)
 * Original ppa was built against Ubuntu 13.04 (Saucy), but needed Precise 12.04
 * Original ppa: deb http://ppa.launchpad.net/keks9n/rabbitmq-auth-backend-http/ubuntu saucy main
 
