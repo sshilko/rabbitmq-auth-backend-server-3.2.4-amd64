@@ -1,0 +1,12 @@
+Package: rabbitmq-auth-backend-http
+Version: 20131225-3
+Architecture: amd64
+Maintainer: kekekeks <kekekeks@KeksMPC>
+Installed-Size: 40
+Depends: rabbitmq-server (= 3.2.4-1)
+Section: libs
+Priority: extra
+Homepage: https://github.com/simonmacmullen/rabbitmq-auth-backend-http
+Description: HTTP-based authorisation and authentication for RabbitMQ
+ This plugin provides the ability for your RabbitMQ server to perform authentication (determining who can log in) and authorisation (determining what permissions they have) by making requests to an HTTP server.
+ As with all authentication plugins, this one requires rabbitmq-server 3.2.4
