@@ -1,0 +1,3 @@
+[submodule "rabbitmq-auth-backend-http"]
+	path = rabbitmq-auth-backend-http
+	url = https://github.com/simonmacmullen/rabbitmq-auth-backend-http.git
