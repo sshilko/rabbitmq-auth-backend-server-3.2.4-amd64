@@ -23,3 +23,13 @@
 * Original ppa was built against Ubuntu 13.04 (Saucy), but needed Precise 12.04
 * Original ppa: deb http://ppa.launchpad.net/keks9n/rabbitmq-auth-backend-http/ubuntu saucy main
 
+## Configuration
+```
+ %%This authenticates every user access with their credentials passed
+ %%This does not authenticates vhost & resources access (allows)
+
+ {rabbitmq_auth_backend_http, [{user_path,     "http://somedomain.com/someurl.php"},
+                               {vhost_path,    "#"},
+                               {resource_path, "#"}
+ ] },
+```
